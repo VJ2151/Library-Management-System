@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2 class="mb-4">📊 Library Dashboard</h2>
+
+  <div class="row g-3">
+    <div class="col-md-6">
+      <div class="card text-white bg-primary shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Total Books</h5>
+          <p class="display-6">{{ book_count }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card text-white bg-success shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Books Currently Issued</h5>
+          <p class="display-6">{{ tx_open }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <a href="{% url 'issue_book' %}" class="btn btn-outline-primary me-2">➕ Issue Book</a>
+    <a href="{% url 'return_book' %}" class="btn btn-outline-success me-2">↩️ Return Book</a>
+    <a href="{% url 'import_books' %}" class="btn btn-outline-info">🌐 Import Books</a>
+  </div>
+{% endblock %}

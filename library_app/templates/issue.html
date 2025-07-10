@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2 class="mb-4">📖 Issue a Book</h2>
+
+  <form method="get" class="row g-2 mb-4">
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="book_search" placeholder="Search books" value="{{ book_search }}">
+    </div>
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="member_search" placeholder="Search members" value="{{ member_search }}">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-outline-primary w-100">🔍 Search</button>
+    </div>
+  </form>
+
+  <form method="post" class="card p-4 shadow-sm border-0">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-success mt-3">✅ Issue Book</button>
+  </form>
+
+  <a href="{% url 'dashboard' %}" class="floating-back-btn" title="Back to Dashboard">
+  ⬅️
+  </a>
+
+{% endblock %}
