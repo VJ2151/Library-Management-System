@@ -41,3 +41,46 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+
+📬 How to Use
+📥 Import Books
+Go to /import/
+
+Enter a title keyword (e.g. "Harry Potter")
+
+Enter how many books to import (e.g. 30)
+
+Books are fetched using the Frappe API and saved to the DB
+
+📖 Issue a Book
+Go to /issue/
+
+Search for a book and member
+
+Submit the form to issue
+
+🔁 Return a Book
+Go to /return/
+
+Search and select issued book/member
+
+Specify days late to auto-calculate fee
+
+Submit to return and update stock
+
+🛠️ Django Admin Panel
+Visit: /admin/
+
+Log in using your superuser account
+
+Manage books, members, transactions manually
+
+📬 Submission Note
+This project was built as part of a Python Developer Hiring Test.
+It showcases full-stack development, API integration, database logic, and deployment.
+
+🙋‍♂️ Author
+Vijay Rajage
+📧 vijayrajage.py@gmail.com
+🔗 GitHub
+🌐 Live App
