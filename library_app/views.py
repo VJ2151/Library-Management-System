@@ -5,10 +5,13 @@ from django.contrib import messages
 from django.conf import settings
 from .models import Book, Member, Transaction  
 
+
 def dashboard(request):
+    recent_tx = Transaction.objects.select_related('book', 'member').order_by('-id')[:5]  # show last 5
     return render(request, "dashboard.html", {
         "book_count": Book.objects.count(),
         "tx_open": Transaction.objects.filter(return_date__isnull=True).count(),
+        "recent_tx": recent_tx
     })
 
 from django.db.models import Q
@@ -144,3 +147,6 @@ def import_books(request):
 
     return render(request, "import.html")
 
+def all_transactions(request):
+    transactions = Transaction.objects.select_related('book', 'member').order_by('-id')
+    return render(request, 'all_transactions.html', {'transactions': transactions})
