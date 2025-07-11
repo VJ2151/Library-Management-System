@@ -4,15 +4,25 @@ A web-based library system built using **Django** for librarians to manage books
 
 ## 🚀 Features
 
-✅ Manage books with stock  
-✅ Add/edit/delete members  
-✅ Issue and return books  
-✅ Enforce ₹500 outstanding limit per member  
-✅ Automatically calculate late return fees  
-✅ Import books using the Frappe Books API  
-✅ Mobile-responsive & Bootstrap 5 UI  
-✅ Django Admin interface  
-✅ Hosted on PythonAnywhere
+📦 Book Management: Add/edit/delete books with automatic stock tracking.
+
+🧑 Member Management: Easily manage member records.
+
+🔄 Issue & Return: Issue books with ₹500 debt cap and return them with late fee calculation (₹5/day).
+
+🔍 Smart Search: Live search by book title/author and member name/email.
+
+🌐 Frappe API Integration: Import books page-by-page using live search and custom quantity.
+
+📊 Dashboard: Overview of total books and currently issued ones.
+
+🔐 Admin Panel: Manage everything via Django admin.
+
+📱 Mobile-Responsive UI: Built using Bootstrap 5 with floating buttons and responsive forms.
+
+🔔 Flash Messages: Success/error messages auto-dismiss after 3 seconds for clean UX.
+
+☁️ Live Deployment: Hosted on PythonAnywhere
 
 ## 🖥️ Screenshots
 
