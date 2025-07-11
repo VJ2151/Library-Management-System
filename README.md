@@ -24,11 +24,17 @@ A web-based library system built using **Django** for librarians to manage books
 
 ☁️ Live Deployment: Hosted on PythonAnywhere
 
-## 🖥️ Screenshots
+## 🖥️ Mobile Screenshots
 
 | Dashboard | Issue Book | Return Book | Import Page | Admin Panel |
 |----------|------------|-------------|-------------|-------------|
 | ![](screenshots/dashboard.jpg) | ![](screenshots/issue.jpg) | ![](screenshots/return.jpg) | ![](screenshots/import.jpg) | ![](screenshots/admin.jpg) |
+
+## 🖥️ Desktop Screenshots
+
+| Dashboard | Issue Book | Return Book | Import Page | Admin Panel |
+|----------|------------|-------------|-------------|-------------|
+| ![](screenshots/dashboards.jpg) | ![](screenshots/issues.jpg) | ![](screenshots/returns.jpg) | ![](screenshots/imports.jpg) | ![](screenshots/admins.jpg) |
 
 ## 🔧 Tech Stack
 
