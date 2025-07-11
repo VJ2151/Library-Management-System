@@ -71,6 +71,5 @@ python manage.py runserver
 ### 🙋‍♂️ Author
 - Vijay Rajage
 📧 vijayrajage.py@gmail.com
-🔗 [GitHub Repository](https://www.linkedin.com/in/vijay-rajage/)  
 🌐 [Live App on PythonAnywhere](https://vijayrajage.pythonanywhere.com)
 
