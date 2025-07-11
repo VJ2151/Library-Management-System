@@ -22,9 +22,10 @@
     </div>
   </div>
 
-  <div class="mt-4">
-    <a href="{% url 'issue_book' %}" class="btn btn-outline-primary me-2">➕ Issue Book</a>
-    <a href="{% url 'return_book' %}" class="btn btn-outline-success me-2">↩️ Return Book</a>
-    <a href="{% url 'import_books' %}" class="btn btn-outline-info">🌐 Import Books</a>
+  <div class="mt-4 d-grid gap-2 d-md-flex justify-content-md-start flex-wrap">
+    <a href="{% url 'issue_book' %}" class="btn btn-outline-primary me-md-2 mb-2">➕ Issue Book</a>
+    <a href="{% url 'return_book' %}" class="btn btn-outline-success me-md-2 mb-2">↩️ Return Book</a>
+    <a href="{% url 'import_books' %}" class="btn btn-outline-info me-md-2 mb-2">🌐 Import Books</a>
+    <a href="/admin/" class="btn btn-outline-dark mb-2" target="_blank">🛠️ Admin Panel</a>
   </div>
 {% endblock %}

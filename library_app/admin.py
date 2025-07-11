@@ -12,3 +12,7 @@ class MemberAdmin(admin.ModelAdmin):
     search_fields = ("name", "email")
 
 admin.site.register(Transaction)
+
+admin.site.site_header = "📚 Library Management Admin"
+admin.site.site_title = "Library Admin"
+admin.site.index_title = "Manage Books, Members & Transactions"
