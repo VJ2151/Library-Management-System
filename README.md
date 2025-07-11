@@ -42,45 +42,37 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
-📬 How to Use
-📥 Import Books
-Go to /import/
+## 📬 How to Use
 
-Enter a title keyword (e.g. "Harry Potter")
+### 📥 Import Books
+- Go to `/import/`
+- Enter a title keyword (e.g. "Harry Potter")
+- Enter how many books to import (e.g. 30)
+- Books are fetched using the Frappe API and saved to the DB
 
-Enter how many books to import (e.g. 30)
+### 📖 Issue a Book
+- Go to `/issue/`
+- Search for a book and member
+- Submit the form to issue
 
-Books are fetched using the Frappe API and saved to the DB
+### 🔁 Return a Book
+- Go to `/return/`
+- Search and select issued book/member
+- Specify days late to auto-calculate fee
+- Submit to return and update stock
 
-📖 Issue a Book
-Go to /issue/
+### 🛠️ Django Admin Panel
+- Visit: `/admin/`
+- Log in using your superuser account
+- Manage books, members, transactions manually
 
-Search for a book and member
+### 📬 Submission Note
+- This project was built as part of a Python Developer Hiring Test.
+- It showcases full-stack development, API integration, database logic, and deployment.
 
-Submit the form to issue
-
-🔁 Return a Book
-Go to /return/
-
-Search and select issued book/member
-
-Specify days late to auto-calculate fee
-
-Submit to return and update stock
-
-🛠️ Django Admin Panel
-Visit: /admin/
-
-Log in using your superuser account
-
-Manage books, members, transactions manually
-
-📬 Submission Note
-This project was built as part of a Python Developer Hiring Test.
-It showcases full-stack development, API integration, database logic, and deployment.
-
-🙋‍♂️ Author
-Vijay Rajage
+### 🙋‍♂️ Author
+- Vijay Rajage
 📧 vijayrajage.py@gmail.com
-🔗 GitHub
-🌐 Live App
+🔗 [GitHub Repository](https://www.linkedin.com/in/vijay-rajage/)  
+🌐 [Live App on PythonAnywhere](https://vijayrajage.pythonanywhere.com)
+
