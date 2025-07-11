@@ -28,13 +28,13 @@ A web-based library system built using **Django** for librarians to manage books
 
 | Dashboard | Issue Book | Return Book | Import Page | Admin Panel |
 |----------|------------|-------------|-------------|-------------|
-| ![](screenshots/dashboard.jpg) | ![](screenshots/issue.jpg) | ![](screenshots/return.jpg) | ![](screenshots/import.jpg) | ![](screenshots/admin.jpg) |
+| ![](screenshots/dashboard.png) | ![](screenshots/issue.png) | ![](screenshots/return.png) | ![](screenshots/import.png) | ![](screenshots/admin.png) |
 
 ## 🖥️ Desktop Screenshots
 
 | Dashboard | Issue Book | Return Book | Import Page | Admin Panel |
 |----------|------------|-------------|-------------|-------------|
-| ![](screenshots/dashboards.jpg) | ![](screenshots/issues.jpg) | ![](screenshots/returns.jpg) | ![](screenshots/imports.jpg) | ![](screenshots/admins.jpg) |
+| ![](screenshots/dashboards.png) | ![](screenshots/issues.png) | ![](screenshots/returns.png) | ![](screenshots/imports.png) | ![](screenshots/admins.png) |
 
 ## 🔧 Tech Stack
 
